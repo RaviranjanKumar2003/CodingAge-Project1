@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Sign Up page</title>
+    <style type="text/css">
+        body{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: Arial;
+        }
+        .main{
+            justify-items: center;
+        }
+        .cards{
+            width: 30vw;
+            height:75vh;
+            padding: 10px;
+            margin-top: 60px;
+            background-color: white;
+            box-shadow: 2px 2px 10px black;
+            border-radius: 10px;
+        }
+        .hed{
+            margin-left: 25px;
+        }
+        .cards:hover{
+            box-shadow: 2px 2px 10px green;
+        }
+        .para1{
+            margin-left: 170px;
+            font-size: 1.2vw;
+        }
+        .ank1{
+            text-decoration: none;
+            color: #34a853;
+            font-size: 1.2vw;
+            font-weight: bold;
+        }
+        .main-div{
+            height: 5vh;
+            width: 30vw;
+            margin-top: 40px;
+            margin-left: 30px;
+            display: flex;
+        }
+        .div1{
+            width: 12vw;
+            height: 5vh;
+            display: flex;
+            align-items: center;
+            border: 2px solid rgb(135, 133, 133);
+            border-radius: 8px;
+        }
+        .div1 img{
+            height: 5vh;
+            margin-left: 50px;
+        }
+        .div1 h2{
+            margin-left: 10px;
+            padding-top: 5px;
+        }
+
+        .div2{
+            width: 12vw;
+            height: 5vh;
+            display: flex;
+            align-items: center;
+            border: 2px solid rgb(135, 133, 133);
+            border-radius: 8px;
+            margin-left: 10px;
+        }
+        .div2 img{
+            height: 4vh;
+            margin-left: 30px;
+        }
+        .div2 h2{
+            margin-left: 10px;
+            padding-top: 5px;
+        }
+
+        .main-div2{
+            height: 5vh;
+            width: 30vw;
+            margin-top: 20px;
+            margin-left: 30px;
+            display: flex;
+        }
+        .div3{
+            width: 12vw;
+            height: 5vh;
+            display: flex;
+            align-items: center;
+            border: 2px solid rgb(135, 133, 133);
+            border-radius: 8px;
+        }
+        .div3 img{
+            height: 4vh;
+            margin-left: 50px;
+        }
+        .div3 h2{
+            margin-left: 10px;
+            padding-top: 5px;
+        }
+
+        .div4{
+            width: 12vw;
+            height: 5vh;
+            display: flex;
+            align-items: center;
+            border: 2px solid rgb(135, 133, 133);
+            border-radius: 8px;
+            margin-left: 10px;
+        }
+        .div4 img{
+            height: 4vh;
+            margin-left: 60px;
+        }
+        .div4 h2{
+            margin-left: 10px;
+            padding-top: 5px;
+        }
+        .or{
+            text-align: center;
+        }
+        .inp1{
+            height: 5vh;
+            width: 24vw;
+            border-radius: 8px;
+            margin-top: 10px;
+            margin-left: 25px;
+            padding-left: 10px;
+            font-size: 1.1vw;
+            border: 2px solid rgb(135, 133, 133);
+        }
+        .inp2{
+            height: 5vh;
+            width: 24vw;
+            border-radius: 8px;
+            margin-top: 5px;
+            margin-left: 25px;
+            padding-left: 10px;
+            font-size: 1.1vw;
+            border: 2px solid rgb(135, 133, 133);
+        }
+        .inp2:hover{
+            box-shadow: 2px 2px 10px indianred;
+        }
+        .inp1:hover{
+            box-shadow: 2px 2px 10px indianred;
+        }
+        .submit{
+            display: flex;
+        }
+        .buttn1{
+            margin-top: 25px;
+            height: 6vh;
+            width: 12vw;
+            margin-left: 10px;
+            color: white;
+            border: none;
+            font-size: 1.3vw;
+            font-weight: 700;
+            background-color: #04aa6d;
+            border-radius: 10px;
+        }
+        .buttn1:hover{
+            background-color: #0ccf88;
+            cursor: pointer;
+        }
+        .buttn2{
+            margin-top: 25px;
+            height: 6vh;
+            width: 13vw;
+            border: 1px solid rgb(135, 133, 133);
+            margin-left: 25px;
+            font-size: 1.3vw;
+            font-weight: 700;
+            border-radius: 10px;
+        }
+        .buttn2:hover{
+            background-color: aliceblue;
+            cursor: pointer;
+        }
+        .para2{
+            text-align: center;
+            font-size: 1.2vw;
+        }
+        .checkbox{
+            text-align: center;
+            font-size: 1.2vw;
+            font-weight: 400;
+            color: black;
+        }
+        .para2-ank{
+            color: blue;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="cards">
+            <form action="/index.html">
+                <h1 class="hed">Log in</h1>
+            <p class="para1">Don't have an account? <a href="/Sign-Up.html" class="ank1">Sign Up</a></p>
+            <div class="main-div">
+                <div class="div1">
+                   <h2>Google</h2>
+                   <img src="/images/google-icon.png">
+                </div>
+                <div class="div2">
+                    <h2>Facebook</h2>
+                    <img src="/images/facebook.png">
+                 </div>
+            </div>
+            <div class="main-div2">
+                <div class="div3">
+                   <h2>Github</h2>
+                   <img src="/images/github.png">
+                </div>
+                <div class="div4">
+                    <h2>Feide</h2>
+                    <img src="/images/feide.png">
+                 </div>
+            </div>
+            <h2 class="or">OR</h2>
+            <div><input type="email" placeholder="email" required class="inp1"></div>
+            <div><input type="password" placeholder="password" required class="inp2"></div>
+            <div class="submit">
+                <div><a href="#"><button class="buttn2">Forgot Password?</button></a></div>
+                <div><button class="buttn1">Sign Up</button></div>
+            </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
