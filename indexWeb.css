@@ -13,10 +13,10 @@ a{
     color: black;
 }
 .main{
+    box-shadow: 2px 2px 10px black;
     height: 100%;
     width: 100%;
     border-radius: 10px;
-    box-shadow: 2px 2px 10px black;
     display: flex;
 }
 .part1{
@@ -30,35 +30,35 @@ a{
     float: left;
 }
 .part1-btn{
-    width: 10vw;
-    height: 6vh;
+    width: 12vmax;
+    height: 5vmax;
     border-radius: 30px;
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: 30px;
     display: flex;
     align-items: center;
-    background-color:#04aa6d;
 }
 .login{
-    width:7vw;
-    height: 6vh;
-    font-size: 1.1vw;
+    width:6vmax;
+    height: 4vmax;
+    font-size: 1.1vmax;
     border-radius: 30px;
-    margin-left: -40px;
+    margin-left: -25px;
     color: white;
     border: none;
     justify-items: center;
     background-color:#06cd84;
 }
 .login:hover{
-    background-color:#09e192;
+    background-color:#10f5a1;
+    color: black;
     cursor: pointer;
 }
 .signin{
-    width:8vw;
-    height: 6vh;
-    font-size: 1.1vw;
-    border: none;
+    width:7.5vmax;
+    height: 4vmax;
+    font-size: 1.1vmax;
+    border:1px solid rgb(223, 215, 215);
     color:black;
     text-align: left;
     padding-left: 15px;
@@ -199,12 +199,12 @@ input:focus {
 }
 .button1:hover{
     background-color: #aff4f2;
+    cursor: pointer;
 }
 .part2{
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 99%;
     margin: 3px;
-    margin-left: -2px;
     box-shadow: 2px 2px 10px black;
     border-top-right-radius: 10px;
     border-bottom-right-radius:10px;
@@ -221,7 +221,6 @@ input:focus {
     color: white;
     overflow: hidden;
 }
-
 .input2{
     display: flex;
 }
@@ -275,7 +274,7 @@ input:focus {
     display: block;
     position: absolute;
     height: 94vh;
-    width: 79vw;
+    width: 78vw;
     border-radius: 10px;
     margin-top: 15px;
     margin-left: -8px;
@@ -370,10 +369,10 @@ input:focus {
     display: block;
     position: absolute;
     height: 94vh;
-    width: 79vw;
+    width: 78vw;
     border-radius: 10px;
     margin-top: 18px;
-    margin-left: -107px;
+    margin-left: -138px;
     background-color:#282a35;
     box-shadow: 2px 2px 10px black;
     overflow: auto;
@@ -398,11 +397,11 @@ input:focus {
 .r3c1-ul-li:hover .dropdown3{
     display: block;
     position: absolute;
-    height: 94vh;
+    height: 92vh;
     width: 79vw;
     border-radius: 10px;
     margin-top: 18px;
-    margin-left: -215px;
+    margin-left: -280px;
     background-color:#282a35;
     box-shadow: 2px 2px 10px black;
     overflow: auto;
@@ -413,11 +412,11 @@ input:focus {
 .r3c1-ul-li:hover .dropdown4{
     display: block;
     position: absolute;
-    height: 90vh;
+    height: 93vh;
     width: 79vw;
     border-radius: 10px;
     margin-top: 18px;
-    margin-left: -335px;
+    margin-left: -436px;
     background-color:#282a35;
     box-shadow: 2px 2px 10px black;
     display: flex;
@@ -444,17 +443,12 @@ input:focus {
 .lastnav{
     margin-right: 30px;
 }
-.part2-r2{
-    height: 90vh;
-    width: 100%;
-}
 .div3{
-    height: 6.8%;
+    height: 3.5vmax;
     width:100%;
     display: flex;
     justify-items: center;
     align-items: center;
-    justify-content: center;
     background-color: #282a35;
     overflow: auto;
     white-space: nowrap;
@@ -462,97 +456,87 @@ input:focus {
 .div3 a{
     color: white;
     padding: 10px;
-    font-size: 1.4vw;
     font-weight: bold;
 }
 .div3 a:hover{
     background-color: #0f1111;
 }
 .p1-r2-div1{
-    height: 18%;
     width:100%;
     padding-left: 40px;
     background-color: rgb(210, 204, 195);
 }
 .p1-r2-div1 h1{
-    font-size: 3.5vw;
     font-weight: bold;
     color: rgb(1, 1, 99);
 }
 .p1-r2-div1 span{
     color: red;
 }
+.star{
+    color: red;
+    font-size: 3vmax;
+}
 .p1-r2-div2{
-    height: 80%;
-    width: 100%;
-    border-bottom-right-radius: 10px;
     overflow: auto;
-    z-index: 1;
+    margin: 30px;
 }
 .p1-r2-div2 img{
-    height: 100%;
+    height: 33vmax;
     width:100%;
 }
 .sp1{
     color: #088cc7;
 }
-.p1-r2-div2 p{
-    font-size: 1.3vw;
-    margin: 20px;
-    margin-left: 50px;
+.p1{
+    font-size: 1.5vmax;
 }
-.p1-r2-div2 img{
-    margin: 20px;
+.p1-r2-div2 p{
+    font-size: 1.5vmax;
+    
+    margin-top: 20px;
 }
 .p1-r2-div2 h2{
-    font-size: 2.5vw;
+    font-size: 2.5vmax;
     color: #00425c;
-    margin: 20px;
-    margin-left: 50px;
+    margin-top: 10px;
 }
 .div2-ul{
-    margin: 20px;
-    margin-left: 50px;
-    font-size: 1.5vw;
-    list-style-type:disc;
+    font-size: 1.5vmax;
+    list-style-type:circle;
 }
 .div2-ul li::marker{
     color: green;
-    font-size: 2.5vw;
-    margin-left: 50px;
+    font-size: 2vmax;
 }
 
 .js-div{
     background-image: url(/images/bg2.jpg);
     background-size: cover;
-    margin: 50px;
-    height: 75%;
-    width: 100%;
+    height: 23vmax;
     align-items: center;
     justify-items: center;
     background-color:rgb(43, 43, 237);
 }
 .js-div1{
-    width: 80%;
-    padding-top: 30px;
     margin-top: 20px;
     text-align: center;
     align-items: center;
-    justify-items: center;
+    
 }
 .js-div1 h1{
-    font-size: 3vw;
+    font-size: 3vmax;
     padding-top: 20px;
     color: orange;
     font-weight: 700;
 }
 .js-btn{
-    height: 7vh;
-    width: 10vw;
+    height: 4vmax;
+    width: 10vmax;
     border-radius: 20px;
     border: none;
-    margin-top: 30px;
-    font-size: 1.2vw;
+    margin-top: 20px;
+    font-size: 1.2vmax;
 }
 .js-btn:hover{
     background-color: rgb(176, 205, 250);
